@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movies Sorter</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h1>Movies Sorter by IMDb Ratings</h1>
+
+    <main class="content">
+      <div id="search">
+        <input type="text" id="search-input">
+        <button onclick="handleSearch()">Search</button>
+        <h2 id="search-data-title">Search Results</h2>
+        <div id="search-data"></div>
+        <button>Add</button>  
+      </div>
+
+      <div id="output">
+        <h2>Final List</h2>
+        <ol id="output-list"></ol>
+        <button>Sort</button>
+      </div>
+      <div></div>
+    </main>
+
+  </body>
+</html>

@@ -71,3 +71,26 @@ button:hover {
 h2#search-data-title {
   margin-top: 60px;
 }
+
+div#search-data {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+div#search-data div.movie {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div#search-data div.movie input {
+  margin: 0;
+  width: 30px;
+}
+
+div#search-data div.movie span {
+  margin-left: 10px;
+
+}

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 html {
   margin: 0;
@@ -7,14 +7,17 @@ html {
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  background: #10100f;
+  color: #FFF;
 }
 
 h1 {
   text-align: center;
-  font-size: 30px;
+  font-size: 36px;
   margin-top: 100px;
   margin-bottom: 60px;
+  color: #ffc900;
+  font-family: "Roboto", sans-serif;
 }
 
 .content {
@@ -28,7 +31,7 @@ h1 {
 div#search {
   display: flex;
   flex-direction: column;
-  border: 2px dashed gray;
+  border: 1px dashed #ffc900;
   border-radius: 15px;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -49,19 +52,21 @@ input {
   font-size: 18px;
   padding-left: 10px;
   padding-right: 10px;
-  border: 2px solid gray;
-  border-radius: 10px;
+  border: none;
+  border-radius: 4px;
   margin-bottom: 20px;
 }
 
 button {
-  background-color: #2E89F7;
+  background-color: #ffc900;
   border: none;
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
   font-size: 18px;
-  color: #FFF;
+  color: #000;
   padding: 10px 30px;
-  border-radius: 10px;
+  border-radius: 4px;
+  font-weight: bold;
 }
 
 button:hover {
@@ -92,5 +97,4 @@ div#search-data div.movie input {
 
 div#search-data div.movie span {
   margin-left: 10px;
-
 }
